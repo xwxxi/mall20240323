@@ -52,7 +52,7 @@ export default defineConfig({
       },
       dts: "./src/types/auto-imports.d.ts",
       // 配置本地哪些目录支持自动引入
-      dirs: ["./src/components/page/", "./src/composables", "./src/views/module/*"],
+      dirs: ["./src/components/page/", "./src/views/module/*"],
     }),
     Components({
       dts: "./src/types/components.d.ts",
